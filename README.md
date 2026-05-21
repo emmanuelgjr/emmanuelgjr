@@ -4,7 +4,7 @@ I'm Emmanuel — Senior Global IT Auditor at Martinrea International (Tier 1 aut
 
 I work where AI security meets enterprise audit reality. The repos here are open-source controls, mappings, and tooling that translate emerging GenAI risks into language CISOs, auditors, and regulators can act on.
 
-Based in Toronto. Trilingual: English, Portuguese, Spanish.
+Based in North America. Trilingual: English, Portuguese, Spanish.
 
 ---
 
@@ -39,7 +39,7 @@ Four sibling repos covering the governance, audit, offensive, and shadow-AI side
 
 **[DSGAI](https://github.com/emmanuelgjr/DSGAI)** — Interactive web guide for the OWASP *GenAI Data Security Risks and Mitigations 2026* publication I co-lead — 21 risk entries (DSGAI01–DSGAI21), navigable.
 
-**[2025 LLM Top 10 Mapping](https://github.com/emmanuelgjr/2025LLMTop10Mapping)** — The OWASP Top 10 for LLM & GenAI Apps 2025, mapped to broader cybersecurity frameworks for audit and assurance teams.
+**[GenAI-Security-Literature-Review](https://github.com/emmanuelgjr/GenAI-Security-Literature-Review)** — Community-driven, auto-updating literature review of GenAI/LLM security research, standards, tools, and resources. 100+ curated entries across 46 categories with mappings to OWASP LLM/Agentic Top 10, MITRE ATLAS, NIST AI RMF, and ISO/IEC 42001. Interactive webapp with weekly automated discovery from arXiv, Semantic Scholar, and CrossRef.
 
 **[AgentVulnMitigator](https://github.com/emmanuelgjr/AgentVulnMitigator)** — Multi-agent tool for detecting and mitigating vulnerabilities in agentic AI systems.
 
