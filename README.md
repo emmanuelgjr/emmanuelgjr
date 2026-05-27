@@ -17,17 +17,17 @@ Based in North America. Trilingual: English, Portuguese, Spanish.
 
 ---
 
-### AI security portfolio — v0.1 (May 2026)
+### AI security portfolio — v0.2 (May 2026)
 
-Four sibling repos covering the governance, audit, offensive, and shadow-AI sides of enterprise AI security. Standards-aligned across ISO/IEC 42001, NIST AI RMF, EU AI Act, OWASP, and MITRE ATLAS. MIT-licensed code, CC-BY 4.0 content.
+Four sibling repos covering the governance, audit, offensive, and shadow-AI sides of enterprise AI security. Standards-aligned across ISO/IEC 42001, NIST AI RMF, EU AI Act, OWASP, MITRE ATLAS, SOC 2, OSFI E-21, and NYDFS 500. MIT-licensed code, CC-BY 4.0 content. All browser-only — no backend, no telemetry.
 
-**[AI-Governance-Toolkit](https://github.com/emmanuelgjr/AI-Governance-Toolkit)** — Stand up AI governance by Friday. AI system inventory with EU AI Act risk classification, AI Impact Assessment per ISO/IEC 42005, risk register with heatmaps, ISO 42001 52-week roadmap, and 6 governance templates. Browser-only — data never leaves the client.
+**[AI-Governance-Toolkit](https://github.com/emmanuelgjr/AI-Governance-Toolkit)** — Stand up AI governance by Friday. AI system inventory with EU AI Act risk classification, AI Impact Assessment per ISO/IEC 42005, risk register with heatmaps, **vendor risk questionnaire** (40 weighted questions, red-flag detection), **maturity self-assessment** (8 domains, radar chart, action plan), ISO 42001 roadmap, and templates. Word/Excel export. Browser-only — data never leaves the client.
 
-**[AI-Controls-Catalog](https://github.com/emmanuelgjr/AI-Controls-Catalog)** — Audit-ready controls library for AI systems. 20 controls across 14 categories with Test of Design and Test of Operating Effectiveness guidance, sample-size direction, evidence requirements, and mappings to ISO/IEC 42001, NIST AI RMF, EU AI Act, OWASP, SOC 2, and MITRE ATLAS. PDF/CSV/JSON export.
+**[AI-Controls-Catalog](https://github.com/emmanuelgjr/AI-Controls-Catalog)** — Audit-ready controls library for AI systems. 20 controls across 14 categories with Test of Design and Test of Operating Effectiveness guidance, sample-size direction, evidence requirements, and mappings to 10 frameworks (ISO 42001, NIST AI RMF, EU AI Act, OWASP LLM/Agentic/DSGAI, MITRE ATLAS, SOC 2, OSFI E-21, NYDFS 500). **Scoping wizard** (6-step questionnaire → tailored control set), **RCM Excel export** (4-worksheet working paper), Word/PDF/CSV/JSON export.
 
-**[AI-RedTeam-Framework](https://github.com/emmanuelgjr/AI-RedTeam-Framework)** — Stand up an AI red team at a regulated enterprise. 15-chapter playbook (charter → maturity model), 25 attack patterns mapped to OWASP LLM/Agentic Top 10, MITRE ATLAS, and NIST AI RMF, 15 candid tool reviews, OSFI E-21 crosswalk, and an interactive Engagement Planner that generates Word Rules of Engagement.
+**[AI-RedTeam-Framework](https://github.com/emmanuelgjr/AI-RedTeam-Framework)** — Stand up an AI red team at a regulated enterprise. 15-chapter playbook (charter → maturity model), 25 attack patterns mapped to OWASP LLM/Agentic Top 10, MITRE ATLAS, and NIST AI RMF, 15 candid tool reviews, **10 downloadable templates** (charter, ROE, RACI, reports), cross-linked to AI-Controls-Catalog, and an interactive Engagement Planner that generates Word Rules of Engagement.
 
-**[Shadow-AI-Defense](https://github.com/emmanuelgjr/Shadow-AI-Defense)** — Detect and respond to Shadow AI in your enterprise. 20 cataloged AI services with network and client signatures, 16 detection rules (Microsoft Sentinel KQL, Defender for Cloud Apps, Purview DLP, CrowdStrike Falcon, generic network), 4 graduated response runbooks with RACI matrices, and a policy starter.
+**[Shadow-AI-Defense](https://github.com/emmanuelgjr/Shadow-AI-Defense)** — Detect and respond to Shadow AI in your enterprise. **35 cataloged AI services** with network and client signatures, **30 detection rules** (Sentinel KQL, Defender for Cloud Apps, Purview DLP, CrowdStrike Falcon, **Netskope, Zscaler**, Conditional Access, generic network), **8 graduated response runbooks** with RACI matrices, **8 security stack profiles**, 10 communications templates, and a policy starter.
 
 ---
 
