@@ -1,6 +1,8 @@
-### Auditor. OWASP GenAI co-lead. ISO/IEC 42001 mirror committee.
+## Turning GenAI Risk into Auditable Controls
 
-I'm Emmanuel — Senior Global IT Auditor at Martinrea International (Tier 1 automotive), and Data Security Initiative Co-lead of the [OWASP GenAI Security Project](https://genai.owasp.org/). I'm a Candidate Expert on the Canadian mirror committee for ISO/IEC JTC 1/SC 42, the body shaping ISO/IEC 42001, 23894, and 42005.
+I'm Emmanuel Guilherme — an AI security leader who thinks like an auditor. I lead the **Data Security Initiative (DSGAI)** of the [OWASP GenAI Security Project](https://genai.owasp.org/), co-lead **LLM02 (Sensitive Information Disclosure)** on the OWASP Top 10 for LLM Applications, and serve as a Candidate Expert on Canada's mirror committee for **ISO/IEC JTC 1/SC 42** — the body shaping ISO/IEC 42001, 23894, and 42005. By day: Senior Global IT Auditor at Martinrea International (Tier 1 automotive).
+
+**Work I've contributed to at OWASP is cited in joint AI security guidance from the governments of the USA, Canada, the UK, Australia, and Ireland, and referenced by CISA on agentic AI adoption.**
 
 I work where AI security meets enterprise audit reality. The repos here are open-source controls, mappings, and tooling that translate emerging GenAI risks into language CISOs, auditors, and regulators can act on.
 
@@ -10,10 +12,28 @@ Based in North America. Trilingual: English, Portuguese, Spanish.
 
 ### Standards & community
 
-- **OWASP GenAI Security Project** — Lead, Data Security Initiative (DSGAI). Contributor at large.
+- **OWASP GenAI Security Project** — Lead, Data Security Initiative (DSGAI01–21): one of three principal authors, driving a global community of 240+ contributors.
+- **OWASP Top 10 for LLM Applications** — Co-lead, LLM02 (Sensitive Information Disclosure); author of *Persistent Memory Poisoning*, a candidate entry for the next edition.
 - **ISO/IEC JTC 1/SC 42 (Canada Mirror Committee)** — Candidate Expert on AI standards (42001 · 23894 · 42005).
-- **Threat Modeling Connect, Toronto Chapter** — Co-founder & Contributor.
+- **Threat Modeling Connect, Toronto Chapter** — Co-founder.
 - **Packt** — AI Security Technical Reviewer (LLM security · adversarial ML · AI threat modeling).
+
+---
+
+### Publications
+
+- **GenAI Data Security Risks & Mitigations 2026 (DSGAI01–DSGAI21)** — principal author, initiative lead.
+- **[LLM Applications Cybersecurity & Governance Checklist v1.1](https://genai.owasp.org/resource/llm-applications-cybersecurity-and-governance-checklist-english/)** — contributor. Referenced in [joint government guidance on deploying AI systems securely](https://www.cisa.gov/news-events/alerts/2024/04/15/joint-guidance-deploying-ai-systems-securely) (USA · Canada · UK · Australia · Ireland).
+- **[GenAI Red Teaming Guide](https://genai.owasp.org/resource/genai-red-teaming-guide/)** — co-author.
+- **[LLM & GenAI Security Center of Excellence Guide](https://genai.owasp.org/resource/llm-and-generative-ai-security-center-of-excellence-guide/)** — co-author.
+- **[LLM & GenAI Security Solutions Landscape](https://genai.owasp.org/resource/llm-and-generative-ai-security-solutions-landscape-q12025/)** — co-author.
+- **Agentic AI — Threats and Mitigations** — contributor.
+
+### Recognition
+
+- Cited by **CISA** — [Careful Adoption of Agentic AI Services](https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services).
+- Featured in **Lakera's GenAI Security Readiness Report** (2024, 2025).
+- Quoted in the **AIRQ (AI Risk Quadrant)** framework alongside leaders from CSA and CoSAI.
 
 ---
 
@@ -23,23 +43,23 @@ Four sibling repos covering the governance, audit, offensive, and shadow-AI side
 
 **[AI-Governance-Toolkit](https://github.com/emmanuelgjr/AI-Governance-Toolkit)** — Stand up AI governance by Friday. AI system inventory with EU AI Act risk classification, AI Impact Assessment per ISO/IEC 42005, risk register with heatmaps, **vendor risk questionnaire** (40 weighted questions, red-flag detection), **maturity self-assessment** (8 domains, radar chart, action plan), ISO 42001 roadmap, and templates. Word/Excel export. Browser-only — data never leaves the client.
 
-**[AI-Controls-Catalog](https://github.com/emmanuelgjr/AI-Controls-Catalog)** — Audit-ready controls library for AI systems. 20 controls across 14 categories with Test of Design and Test of Operating Effectiveness guidance, sample-size direction, evidence requirements, and mappings to 10 frameworks (ISO 42001, NIST AI RMF, EU AI Act, OWASP LLM/Agentic/DSGAI, MITRE ATLAS, SOC 2, OSFI E-21, NYDFS 500). **Scoping wizard** (6-step questionnaire → tailored control set), **RCM Excel export** (4-worksheet working paper), Word/PDF/CSV/JSON export.
+**[AI-Controls-Catalog](https://github.com/emmanuelgjr/AI-Controls-Catalog)** — Audit-ready controls library for AI systems. 20 controls across 14 categories with Test of Design and Test of Operating Effectiveness guidance, sample-size direction, evidence requirements, and mappings to 10 frameworks. **Scoping wizard** (6-step questionnaire → tailored control set), **RCM Excel export** (4-worksheet working paper), Word/PDF/CSV/JSON export.
 
-**[AI-RedTeam-Framework](https://github.com/emmanuelgjr/AI-RedTeam-Framework)** — Stand up an AI red team at a regulated enterprise. 15-chapter playbook (charter → maturity model), 25 attack patterns mapped to OWASP LLM/Agentic Top 10, MITRE ATLAS, and NIST AI RMF, 15 candid tool reviews, **10 downloadable templates** (charter, ROE, RACI, reports), cross-linked to AI-Controls-Catalog, and an interactive Engagement Planner that generates Word Rules of Engagement.
+**[AI-RedTeam-Framework](https://github.com/emmanuelgjr/AI-RedTeam-Framework)** — Stand up an AI red team at a regulated enterprise. 15-chapter playbook (charter → maturity model), 25 attack patterns mapped to OWASP LLM/Agentic Top 10, MITRE ATLAS, and NIST AI RMF, 15 candid tool reviews, **10 downloadable templates**, and an interactive Engagement Planner that generates Word Rules of Engagement.
 
-**[Shadow-AI-Defense](https://github.com/emmanuelgjr/Shadow-AI-Defense)** — Detect and respond to Shadow AI in your enterprise. **35 cataloged AI services** with network and client signatures, **30 detection rules** (Sentinel KQL, Defender for Cloud Apps, Purview DLP, CrowdStrike Falcon, **Netskope, Zscaler**, Conditional Access, generic network), **8 graduated response runbooks** with RACI matrices, **8 security stack profiles**, 10 communications templates, and a policy starter.
+**[Shadow-AI-Defense](https://github.com/emmanuelgjr/Shadow-AI-Defense)** — Detect and respond to Shadow AI in your enterprise. **35 cataloged AI services** with network and client signatures, **30 detection rules** (Sentinel KQL, Defender for Cloud Apps, Purview DLP, CrowdStrike Falcon, Netskope, Zscaler, Conditional Access, generic network), **8 graduated response runbooks** with RACI matrices, **8 security stack profiles**, 10 communications templates, and a policy starter.
 
 ---
 
 ### Other featured projects
 
-**[GenAI & Agentic AI Incidents](https://emmanuelgjr.github.io/genai_incidents/)** — Curated database of 7,000+ publicly disclosed GenAI and agentic AI security incidents. Filterable by year, severity, and framework. Each entry cross-referenced to OWASP LLM Top 10 (2025), Agentic Top 10, NIST AI RMF, and MITRE ATLAS. Python package + CSV export.
+**[GenAI & Agentic AI Incidents](https://emmanuelgjr.github.io/genai_incidents/)** — **7,725 documented GenAI and agentic AI security incidents** — the field's single source of truth. Each entry cross-referenced to OWASP LLM Top 10 (2025), Agentic Top 10, NIST AI RMF, and MITRE ATLAS. DOI-registered ([10.5281/zenodo.20248676](https://doi.org/10.5281/zenodo.20248676)), published on [PyPI](https://pypi.org/project/genai-incidents/) and [Hugging Face](https://huggingface.co/datasets/emmanuelgjr/genai-incidents), with a STIX 2.1 feed for OpenCTI/MISP/TAXII.
 
 **[GenAI-Security-Crosswalk](https://github.com/emmanuelgjr/GenAI-Security-Crosswalk)** — The most comprehensive open-source mapping of OWASP GenAI risks to 16 industry frameworks. LLM Top 10, Agentic Top 10, and DSGAI 2026 across 37 files — including NIST AI RMF, ISO/IEC 42001, EU AI Act, MITRE ATLAS, and OT/ICS guidance.
 
-**[DSGAI](https://github.com/emmanuelgjr/DSGAI)** — Interactive web guide for the OWASP *GenAI Data Security Risks and Mitigations 2026* publication I co-lead — 21 risk entries (DSGAI01–DSGAI21), navigable.
+**[DSGAI](https://github.com/emmanuelgjr/DSGAI)** — Interactive web guide for the OWASP *GenAI Data Security Risks and Mitigations 2026* publication I lead — 21 risk entries (DSGAI01–DSGAI21), navigable.
 
-**[GenAI-Security-Literature-Review](https://github.com/emmanuelgjr/GenAI-Security-Literature-Review)** — Community-driven, auto-updating literature review of GenAI/LLM security research, standards, tools, and resources. 100+ curated entries across 46 categories with mappings to OWASP LLM/Agentic Top 10, MITRE ATLAS, NIST AI RMF, and ISO/IEC 42001. Interactive webapp with weekly automated discovery from arXiv, Semantic Scholar, and CrossRef.
+**[GenAI-Security-Literature-Review](https://github.com/emmanuelgjr/GenAI-Security-Literature-Review)** — Community-driven, auto-updating literature review of GenAI/LLM security research. 100+ curated entries across 46 categories, with weekly automated discovery from arXiv, Semantic Scholar, and CrossRef.
 
 **[AgentVulnMitigator](https://github.com/emmanuelgjr/AgentVulnMitigator)** — Multi-agent tool for detecting and mitigating vulnerabilities in agentic AI systems.
 
